@@ -1,9 +1,5 @@
 import pandas as pd
 from flask import Flask, jsonify
-import os
-
-# Print current working directory
-print(f"Current working directory: {os.getcwd()}")
 
 app = Flask(__name__)
 

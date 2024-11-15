@@ -30,3 +30,5 @@ This will open a headless Chrome browser, navigate to the specified URL, and scr
 1. main.py: Main scripts that performs web scraping and stores data in the respective files.
 2. requirements.py: List of the dependencies for the project so that they can be respectively installed.
 3. README.MD: Documentation for the project.
+4. eda.ipynb: The exploratory data analysis implementation.
+5. app.py: This file contains a Flask application in which an API has been created with GET method so that a specific ID's details can be fetched in JSON format.
