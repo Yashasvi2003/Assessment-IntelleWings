@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/fetch/<unique_id>', methods=['GET'])
 def fetch_by_id(unique_id):
-    csv_file_path = 'results_with_unique_id.csv'  # Adjust to your file's path
+    csv_file_path = 'results.csv'  # Adjust to your file's path
     
     try:
         df = pd.read_csv(csv_file_path)
